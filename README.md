@@ -8,7 +8,7 @@ Running the Job in Local
 
 step 1) Clone repo 
 
-    git clone 
+    git clone https://github.com/shubhamdangare/ssh-timestamp-consumer-spark-kafka.git
     
 
     

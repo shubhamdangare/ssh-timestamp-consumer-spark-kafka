@@ -22,7 +22,7 @@ step 2) Set Arguments in run.sh
 Example 
 
     ```
-    --class com.knoldus.StreamsProcessor   target/scala-2.11/stream-app_2.11-0.1.jar 
+    --class com.knoldus.StreamsProcessor target/kafka-spark-streaming-1.0-SNAPSHOT.jar "localhost:9092" "test2" "2019-07-31 04:03:34" "2019-07-31 05:34:53"
     ```
 
 step 3) cd to the cloned repo and run the script

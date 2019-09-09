@@ -15,13 +15,13 @@ class StreamsProcessorSpec extends FlatSpec with BeforeAndAfter {
 
   }
 
-  "Spark Kafka TimeStamp count" should " Get the count in between interval" in {
+  "Spark Kafka TimeStamp Integration Testing" should "Get the count in between interval" in {
     import org.apache.spark.sql.functions._
 
     val dfReadStream = spark
       .readStream
       .format("kafka")
-      .option("kafka.bootstrap.servers", "localhost:9093")
+      .option("kafka.bootstrap.servers", "localhost:9092")
       .option("subscribe", "test2")
       .option("startingOffsets", "earliest")
       .option("enable.auto.commit", "false")

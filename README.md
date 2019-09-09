@@ -22,7 +22,7 @@ step 2) Set Arguments in run.sh
 Example 
 
     ```
-    --class com.knoldus.StreamsProcessor   target/scala-2.11/stream-app_2.11-0.1.jar "10.17.22.77:9092,10.17.22.92:9092,10.17.22.93:9092" "ga-profile-bookings-a-shore-topic-v2" "2019-07-30 22:33:46" "2019-07-30 22:34:53"
+    --class com.knoldus.StreamsProcessor   target/scala-2.11/stream-app_2.11-0.1.jar 
     ```
 
 step 3) cd to the cloned repo and run the script
